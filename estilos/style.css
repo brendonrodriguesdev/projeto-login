@@ -60,3 +60,60 @@ section  div#formulario p {
     text-align: justify;
     font-size: 0.8em;
 }
+
+div.caixa-inputs {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+div.input-texto  {
+    background-color: #5f2c82;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+div.input-texto > input {
+    width: 89%;
+    height: 2.5em;
+    padding: 3px;
+    margin: 3px 0;
+    margin-left: 30px;
+    border-radius: 7px;
+    border: 1px solid #5f2c82;
+    background-color: #94cfcd;
+}
+
+div.input-texto > input:hover {
+    background-color: white;
+}
+
+div.input-senha {
+    background-color: #5f2c82;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+div.input-senha > input {
+    width: 88%;
+    height: 2.5em;
+    padding: 3px;
+    margin: 3px 0;
+    margin-left: 30px;
+    border-radius: 7px;
+    border: 1px solid #5f2c82;
+    background-color: #94cfcd;
+}
+
+span#pessoa {
+    color: white;
+    position: absolute;
+    top:12%;
+}
+
+span#senha {
+    color: white;
+    position: absolute;
+    top: 65%;
+}
