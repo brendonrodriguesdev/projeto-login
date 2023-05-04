@@ -152,24 +152,24 @@ div.input-entrar > input:hover {
 }
 
 div.caixa-botoes > a {
-    display: block;
     /* width: 100%; */ /*não precisou usar a largura*/
     border: 1px solid #53aaa7;
     border-radius: 7px;
     text-decoration: none;
     text-align: center;
     color: #2d6462;
-    padding: 10px;
+    padding: 7px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div.caixa-botoes > a:hover {
     background-color: #6cd3cf;
 }
 
-div.caixa-botoes > span#email {
+div.caixa-botoes > a > span#email {
     color: #2d6462;
-    position: absolute;
-    left: 72%;
-    top: 90%;
+    margin-left: 5px;
 }
