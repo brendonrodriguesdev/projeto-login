@@ -6,6 +6,29 @@
     }
 
     section#login {
-      width: 90vw;  
+      width: 70%;
+      height: 280px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    section div#imagem {
+      width: 30%;
+      height: 100%;
+      background: #5f2c82 url(../imagens/metal.jpg) no-repeat left bottom;
+      background-size: cover;
+
+      border-radius: 20px 0px 0px 20px;
+    }
+
+    form > div.caixa-inputs div.input-texto > input {
+      width: 93%;
+      margin-left: 6%;
+    }
+
+    form > div.caixa-inputs div.input-senha > input {
+      width: 93%;
+      margin-left: 6%;
     }
 }
